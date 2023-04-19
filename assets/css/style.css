@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color:rgb(218, 216, 213);
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+header img{
+    height: 100px;
+    width: 250px;
+}
+
+h1{
+    font-size: 2.25rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav{
+    min-height: 5vh;
+    background-color: rgb(7, 7, 0);
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: rgb(244, 244, 246);
+    transition: all 0.5s;
+}
+
+a:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: rgb(89, 149, 239);
+}
+
+main{
+    background-color: rgb(151, 227, 132);
+    min-height: 74vh;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-image: url(../img/fondo.png);
+    background-position-y: 850px;
+    background-position-x: 0px;
+}
+
+.container{
+    display: flex;
+    width: 30rem;
+    height: 15rem;
+    margin-top: 5vh;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
+audio{
+    width: 20rem;
+}
+
+footer{
+    background-color: rgb(218, 216, 213);
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guion{
+    display: flex;
+    width: 10rem;
+    height: 8rem;
+    margin-top: 5vh;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    border: 2px solid black;
+}
+
+a.descarga{
+    display: flex;
+    width: 7rem;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+a.descarga:hover{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
